@@ -1,0 +1,33 @@
+body{
+    background-color: #FFEAEA;
+}
+p , h1{
+    text-align: center;
+    color: #9A208C;
+    font-size: 30px;
+}
+h1{
+    margin: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex div{
+    background-color: #F5C6EC;
+    margin: 50px;
+    padding: 50px 100px;
+    border: 1px solid #9A208C;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #9A208C;
+}
+
+.flex div:hover{
+    background-color: #9A208C;
+}
+.flex div:hover > p {
+    color: #F5C6EC;
+}
