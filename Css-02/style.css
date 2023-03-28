@@ -1,0 +1,49 @@
+body{
+    min-width: 600px;
+}
+p{
+    margin: 0px;
+}
+img{
+    width: 400px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.container-reverse{
+    flex-direction: row;
+}
+
+.boxes{
+    height:100px;
+}
+
+div div{
+    margin: 1px;
+}
+
+#search{
+    width: 400px;
+}
+
+#search-bar{
+    background-color: #EEEEEE;
+}
+
+#first-div{
+    background-color: #7EE5DA;
+}
+
+#second-div{
+    background-color: #70CCC2;
+}
+
+#third-div{
+    background-color: #62B3AA;
+}
