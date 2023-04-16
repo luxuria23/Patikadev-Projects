@@ -105,7 +105,8 @@ let writeButtons = () => {
 };
 document.onload = writeButtons();
 
-//menu items
+
+//menu items filtering 
 function writeMenu(wantedCategory) {
   menuDOM.innerHTML = "";
   if (wantedCategory == "All") {
@@ -116,10 +117,10 @@ function writeMenu(wantedCategory) {
   }
 }
 
+//create element
 function createElement({ id, title, category, price, img, desc }) {
   let menuItem = document.createElement("div");
   menuItem.innerHTML = `
-  <div class="menu-items">
     <img src="${img}" alt="${title}" class="photo">
     <div class="menu-info">
       <div class="menu-title">
@@ -128,7 +129,8 @@ function createElement({ id, title, category, price, img, desc }) {
       </div>
       <div class="menu-text">${desc}</div>
     </div>
-  </div>
   `
+  menuItem.classList.add("menu-items", "col-lg-6", "col-sm-12")
   menuDOM.appendChild(menuItem)
 }
+document.onload = writeMenu("All")
