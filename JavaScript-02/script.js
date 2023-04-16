@@ -38,3 +38,4 @@ function writeElement(element) {
     `;
     listDOM.insertAdjacentHTML("afterbegin", myitem);
 }
+console.log("3")
