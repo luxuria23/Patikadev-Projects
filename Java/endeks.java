@@ -1,4 +1,5 @@
-package Java01;
+package Java-pratik-01;
+
 import java.util.Scanner;
 public class endeks {
     public static void main(String[] args) {
