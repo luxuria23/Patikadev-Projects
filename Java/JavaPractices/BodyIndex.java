@@ -1,7 +1,8 @@
-package Java-pratik-01;
+package Java.JavaPractices;
+
 
 import java.util.Scanner;
-public class endeks {
+public class BodyIndex {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
