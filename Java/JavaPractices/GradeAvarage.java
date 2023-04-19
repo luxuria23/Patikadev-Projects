@@ -41,5 +41,7 @@ public class GradeAvarage {
       //printing response
       System.out.println(response);
       
+
+      sc.close();
   }
 }

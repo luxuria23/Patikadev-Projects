@@ -17,5 +17,7 @@ public class KdvCalculator {
             "\nKdv'li fiyat: " + price * 1.18 + 
             "\nKdv tutari " + price * 0.18
         );
+
+        sc.close();
     }
 }
