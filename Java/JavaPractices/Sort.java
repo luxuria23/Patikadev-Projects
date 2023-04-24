@@ -11,11 +11,11 @@ public class Sort {
         Scanner sc = new Scanner(System.in);
 
         // getting variables
-        System.out.println("num1: ");
+        System.out.print("num1: ");
         a = sc.nextInt();
-        System.out.println("num2: ");
+        System.out.print("num2: ");
         b = sc.nextInt();
-        System.out.println("num3: ");
+        System.out.print("num3: ");
         c = sc.nextInt();
 
         if (a > c){
