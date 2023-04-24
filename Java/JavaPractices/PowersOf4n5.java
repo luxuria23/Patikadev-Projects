@@ -25,5 +25,6 @@ public class PowersOf4n5 {
         for (int j = 1; j <= num; j *= 5) {
             System.out.println(j);
         }
+        sc.close();
     }
 }
