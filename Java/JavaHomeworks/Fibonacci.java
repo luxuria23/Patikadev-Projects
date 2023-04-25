@@ -17,10 +17,11 @@ public class Fibonacci {
         System.out.print("Give length: ");
         length = sc.nextInt();
 
-
+        //checkin valid input
         if (length < 1) {
             System.out.println("error length must be positive");
         } else {
+            //if input is valid starts fibonacci loop
             for (int i = 0; i < length; i++) {
              System.out.print(num1 + " ");
              sum = num1 + num2;
