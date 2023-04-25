@@ -24,5 +24,8 @@ public class CalcPower {
 
         //output
         System.out.println(result);
+
+
+        sc.close();
     }
 }
