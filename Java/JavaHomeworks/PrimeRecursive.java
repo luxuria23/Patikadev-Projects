@@ -14,6 +14,8 @@ public class PrimeRecursive {
         } else {
             System.out.println("not prime");
         }
+
+        sc.close();
     }
 
     static boolean isPrime(int num){

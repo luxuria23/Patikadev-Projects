@@ -13,6 +13,7 @@ public class RecursivePattern {
         int num = sc.nextInt();
 
         pattern(num);
+        sc.close();
     }
 
     static void pattern(int num) {
